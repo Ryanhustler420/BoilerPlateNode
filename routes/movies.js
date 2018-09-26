@@ -22,7 +22,7 @@ router.post('/',async (req,res) => {
             name: genre.name
         },
         numberInStock: req.body.numberInStock,
-        dailyrentalRate: req.body.dailyrentalRate        
+        dailyRentalRate: req.body.dailyRentalRate        
     });
     
     await movie.save();
