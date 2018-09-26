@@ -6,7 +6,12 @@ app.get('/',(req,res) => {
 });
 
 app.get('/api/courses',(req,res) => {
+    res.send([1,2,3]);
+});
 
+app.get('/api/courses/:id',(req,res) => {
+    res.send(req.params);
+    // res.send(req.query);
 });
 
 const PORT = process.env.PORT || 3000 ;
