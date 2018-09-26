@@ -1,0 +1,22 @@
+{
+  "name": "boilerplatenode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryanhustler420/BoilerPlateNode.git"
+  },
+  "author": "GauravGupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryanhustler420/BoilerPlateNode/issues"
+  },
+  "homepage": "https://github.com/Ryanhustler420/BoilerPlateNode#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
