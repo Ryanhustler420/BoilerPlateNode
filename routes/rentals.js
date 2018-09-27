@@ -1,4 +1,5 @@
 const Fawn = require('fawn');
+const auth = require('../middleware/auth');
 const {Rental,Validate} = require('../models/rental');
 const {Movie} = require('../models/movie');
 const {Customer} = require('../models/customer');
